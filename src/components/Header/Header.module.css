@@ -2,12 +2,12 @@
     background-color: #0c1013;
     background-size: cover;
     width: 100%;
-    display: flex;
+    
 }
 
 
 .container{
-    min-width: 1500px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
