@@ -1,0 +1,14 @@
+.portfolio_item{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    background-color: #1f2326;
+    border-radius: 6px;
+}
+
+.portfolio_item img{
+    width: 100%;
+    height: 500px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}

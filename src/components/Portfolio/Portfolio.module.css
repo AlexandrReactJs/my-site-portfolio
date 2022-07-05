@@ -1,0 +1,11 @@
+.portfolio{
+    color:#fff;
+}
+
+.portfolio_items {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 40px;
+}
+
