@@ -316,7 +316,7 @@ const particleConfig = {
 		},
 		random: false,
 		size: false,
-		speed: 2,
+		speed: 1,
 		spin: {
 		  acceleration: 0,
 		  enable: false
