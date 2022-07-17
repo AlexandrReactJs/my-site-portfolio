@@ -1,0 +1,17 @@
+.sidebar{
+    grid-area: sidebar;
+    width: 200px;
+    border-right: 1px solid rgba(152, 251, 152, 1);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.sidebar a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px 0;
+}

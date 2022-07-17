@@ -1,0 +1,7 @@
+.admin{
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "sidebar content";
+    grid-gap: 20px;
+}
