@@ -1,17 +1,14 @@
-import { combineReducers, legacy_createStore } from "redux";
-import adminPortfolioReducer from "./admin-portfolio-reducer";
-import adminReducer from "./admin-reducer";
+import { applyMiddleware, combineReducers, legacy_createStore } from "redux";
 import portfolioReducer from './portfolio-reducer';
-import refactoringItemReducer from "./refactoring-portfolio-item";
+import thunkMiddleware from "redux-thunk"
+
 
 let reducers = combineReducers({
     portfolioPage: portfolioReducer,
-    adminPortfolioPage: adminPortfolioReducer,
-    refactoringItemPage: refactoringItemReducer,
-    adminPage: adminReducer
+
 })
 
-let store = legacy_createStore(reducers);
+let store = legacy_createStore(reducers, applyMiddleware(thunkMiddleware));
 
 window.store = store;
 export default store;

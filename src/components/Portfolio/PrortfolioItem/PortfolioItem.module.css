@@ -70,21 +70,3 @@
     padding: 15px 20px
     
 }
-
-@keyframes anim-ramka-6 {
-    0% {
-        background-size:    0 6px, 6px 0, 0 6px, 6px 0;
-    }
-    25% {
-        background-size:    100% 6px, 6px 0, 0 6px, 6px 0;
-    }
-    50% {
-        background-size:    100% 6px, 6px 100%, 0 6px, 6px 0;
-    }
-    75% {
-        background-size:    100% 6px, 6px 100%, 100% 6px, 6px 0;
-    }
-    100% {
-        background-size:    100% 6px, 6px 100%, 100% 6px, 6px 100%;
-    }
-}

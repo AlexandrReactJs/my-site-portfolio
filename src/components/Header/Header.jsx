@@ -12,9 +12,9 @@ const Header = () => {
                         <p>Junior Front-end Developer</p>
                     </div>
                     <div className={style.socialNetwork}>
-                        <a href="#">VK</a>
-                        <a href="#">GitHub</a>
-                        <a href="#">Telegram</a>
+                        <a href="https://vk.com/sasha_gavrilov_1">VK</a>
+                        <a href="https://github.com/AlexandrReactJs">GitHub</a>
+                        <a href="https://t.me/gavr_alexandr">Telegram</a>
                     </div>
                 </div>
             </div>

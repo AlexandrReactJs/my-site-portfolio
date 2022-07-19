@@ -3,7 +3,7 @@ import style from "./Aboutme.module.css";
 
 const Aboutme = () => {
     return(
-        <div>
+        <div className={style.aboutme}>
             <h1>About Me</h1>
         </div>
     );
