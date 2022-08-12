@@ -16,13 +16,26 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 20px 80px;
+    padding: 0px 80px;
     align-items: center;
    
     
 }
 
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo img{
+    width: 100px;
+    height: 100px;
+
+}
+
 .logo h3 {
+    
     color: #fff;
     font-size: 22px;
     text-transform: uppercase;
