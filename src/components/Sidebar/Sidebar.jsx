@@ -9,16 +9,11 @@ const Sidebar = () => {
         <div className={style.sidebar}>
             <div className={style.navigation}>
                 <div className={activeBt === 0 ? style.active : style.link}>
-                    <Link onClick={() => {setActiveBt(0)}} to="/">portfolio</Link>
+                    <Link onClick={() => { setActiveBt(0) }} to="/">portfolio</Link>
                 </div>
-                {/*<div className={style.link}>
-                    <Link to="/blog">Блог</Link>
-                </div>
-                <div className={style.link}>
-                    <Link to="/soft">Софт для разработчика</Link>
-                </div>*/}
+
                 <div className={activeBt === 1 ? style.active : style.link}>
-                    <Link onClick={() => {setActiveBt(1)}} to="/aboutme">about me</Link>
+                    <Link onClick={() => { setActiveBt(1) }} to="/aboutme">about me</Link>
                 </div>
             </div>
         </div>
